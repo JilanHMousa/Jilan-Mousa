@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="myWeb.css">
+   
+</head>
+<body>
+   
+    <nav>
+        <ul>
+            <li><a href="#about"><i class="fa-solid fa-user"></i> ABOUT</a></li>
+            <li><a href="#experience"><i class="fas fa-briefcase"></i> EXPERIENCE</a></li>
+            <li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> EDUCATION</a></li>
+            <li><a href="#skills"><i class="fa-solid fa-gears"></i> SKILLS</a></li>
+            <li><a href="#interests"><i class="fa-solid fa-heart"></i> INTERESTS</a></li>
+            <li><a href="#awards"><i class="fa-solid fa-award"></i> AWARDS</a></li>
+            <li><a href="#contact"><i class="fas fa-paper-plane"></i> CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2><b>Jilan Mousa</b> <i class="fa-regular fa-face-smile"></i></h2>
+            <pre>    BETHLEHEM | AL-Jabal Street | jilan.h19@gmail.com</pre>
+            <pre class="ab2">Hi there! As a <b>Software Engineering Developer</b>, I'm 
+                enthusiastic about coming up with novel ideas and enhancing user interfaces.<br>With an emphasis on producing high-quality software that satisfies user needs and business objectives, <br> I have experience with data structures, scalable architectures, and full-stack development.</pre>
+
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Web Developer</h3>
+                <p>HTD Technologies | 2022 - 2023</p>
+                <p>Developed responsive websites with Debugging and Optimizing websites.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Frontend Developer</h3>
+                <p>HTD Technologies | 2023-Present</p>
+                <p>Building User Interfaces (UI) and Ensuring Responsiveness and Cross-Browser Compatibility.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                
+                <h3>Dar Al-Kalima School</h3>
+                <br>
+                <p>High School</p>
+                <p>90.9</p>
+            </div>
+            <div class="education-item">
+                <h3>Bachelor's in Software Engineering</h3>
+                <br>
+                <p>Bethlehem University</p>
+                <p>Major GPA: 3.29</p>
+                <p>2022 - Present</p>
+            </div>
+            
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-item"><i class="fab fa-html5"></i> HTML5</div>
+                <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+                <div class="skill-item"><i class="fab fa-js-square"></i> JavaScript</div>
+                <div class="skill-item"><i class="fab fa-react"></i> React</div>
+                <div class="skill-item"><i class="fab fa-node-js"></i> Node.js</div>
+                <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+                <div class="skill-item"><i class="fab fa-java"></i> Java</div>
+                <div class="skill-item"><i class="fab fa-php"></i> PHP</div>
+            </div>
+        </section>
+
+        <section id="interests">
+            <h2>Interests</h2>
+            <div class="interests-container">
+                <div class="interest-item">
+                    <i class="fas fa-code fa-3x"></i>
+                    <h3>Coding</h3>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-robot fa-3x"></i>
+                    <h3>AI</h3>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-mobile-alt fa-3x"></i>
+                    <h3>Mobile Development</h3>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-brain"></i>
+                    <h3>Artificial Intelligence and Machine Learning</h3>
+                </div>
+                <div class="interest-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Cybersecurity</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards">
+            <h2>Awards</h2>
+            <div class="award-item">
+                <h3><i class="fa-solid fa-award"></i> Google Certification - 2022</h3>
+                <p>Google Analytics Certified Developer</p>
+            </div>
+            <div class="award-item">
+                <h3><i class="fa-solid fa-award"></i> Google Certification - 2023</h3>
+                <p>Mobile Web Specialist</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name"><i class="fas fa-user"></i> Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message"><i class="fas fa-edit"></i> Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message.</button>
+            </form>
+
+        </section>
+        <script src="myWeb.js"></script>
+    </main>
+   
+</body>
+</html>
